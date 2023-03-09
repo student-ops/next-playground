@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-class TaskProps {
+interface TaskProps {
     task: {
         id: string
         title: string
